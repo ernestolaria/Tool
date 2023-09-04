@@ -1,0 +1,58 @@
+/* styles.css (o el nombre de tu archivo de estilos) */
+
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+  }  
+
+  .table {
+    margin: 105px;
+    border-collapse: collapse; /* Elimina los espacios entre las celdas */
+    box-shadow: 0 20px 30px #222; /* Sombra */
+    width: 100%; /* Ancho completo */
+    border-radius: 10px; /* Añadir borde redondeado */
+    overflow: hidden; /* o overflow: auto; */
+  }
+  
+  #col-header {
+    background-color: #54b848;
+    height: 25px;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .row-header {
+    width: 90px;
+    background-color: #003f2d;
+    font-weight: bold;
+  }
+
+  .cell {
+    width: 160px;
+    padding: 1px; /* Espaciado interno en las celdas */
+    text-align: center; /* Alineación central del texto en las celdas */
+    background-color: #fff;
+    border-left: 0.5px solid #777;
+    border-bottom: 0.5px solid #777;
+  }
+
+  #editable {
+    background-color: rgb(203, 237, 225);
+  }
+
+  #col-footer {
+    background-color: rgb(71, 156, 100);
+    border-color: transparent;
+  }
+
+  input {
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: 100%; /* Establece la altura al 100% del contenedor */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y el alto */
+    background-color: transparent;
+    padding: 8px;
+    text-align: center;
+    border: none;
+  }
+   

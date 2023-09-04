@@ -1,0 +1,25 @@
+nav {
+    background-color: #333; /* Cambia el color de fondo del Navbar */
+    padding: 2px; /* Agrega espacio interno al Navbar */
+    text-align: center; /* Alinea el contenido al centro del Navbar */
+    height: 35px;
+  }
+
+  .button-container {
+    /* Si deseas espaciar un poco los botones de la derecha, puedes agregar margen derecho */
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #555; /* Cambia el color de fondo de los botones */
+    color: white; /* Cambia el color del texto de los botones */
+    padding: 5px 10px; /* Agrega espacio interno a los botones */
+    margin: 5px; /* Agrega espacio entre los botones */
+    border: none; /* Elimina el borde de los botones */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #777; /* Cambia el color de fondo al pasar el cursor sobre los botones */
+  }
