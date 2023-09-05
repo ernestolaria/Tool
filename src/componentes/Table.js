@@ -58,7 +58,7 @@ function Table() {
             <td className="cell" id="col-footer">Total</td>
             {columnSums.map((sum, index) => (
                 <td className="cell" id="col-footer" key={index}>
-                    {index === 2 || index === 8 ? `${sum===0 ? 0 : sum.toFixed(1)}%` :
+                    {index === 2 || index === 8 ? `${sum===0 ? 0 : parseInt(sum)}%` :
                         (index === 0 || index === 3 || index === 6 || index === 7 ? `$${sum}` : parseInt(sum))}
                 </td>
             ))}
