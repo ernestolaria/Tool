@@ -9,7 +9,7 @@
   .table {
     margin: 105px;
     border-collapse: collapse; /* Elimina los espacios entre las celdas */
-    box-shadow: 0 20px 30px #222; /* Sombra */
+    box-shadow: 0 20px 30px black; /* Sombra */
     width: 100%; /* Ancho completo */
     border-radius: 10px; /* Añadir borde redondeado */
     overflow: hidden; /* o overflow: auto; */
