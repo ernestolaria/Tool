@@ -55,7 +55,7 @@ function Table() {
     // Generate the final row for column sums
     const sumRow = (
         <tr>
-            <td className="row-header" id="col-footer">Total</td>
+            <td className="cell" id="col-footer">Total</td>
             {columnSums.map((sum, index) => (
                 <td className="cell" id="col-footer" key={index}>
                     {index === 2 || index === 8 ? `${sum===0 ? 0 : sum.toFixed(1)}%` :
